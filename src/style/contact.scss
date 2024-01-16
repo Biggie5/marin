@@ -1,0 +1,294 @@
+.contact_main {
+  margin-top: 13rem;
+  overflow-x: hidden;
+  overflow: hidden;
+
+  .contact_home {
+    background: url("../assets/bg/Dots-texture-white-banner-01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 13rem;
+
+    .contact_head {
+      h1 {
+        font-size: 4rem;
+        font-family: salsa;
+        letter-spacing: 1px;
+        padding-bottom: 2rem;
+        text-transform: uppercase;
+      }
+    }
+
+    .contact_sub {
+      p {
+        font-size: 1.9rem;
+        letter-spacing: 2px;
+        font-family: fira-regular;
+        text-transform: capitalize;
+      }
+    }
+  }
+
+  .contact_links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-bottom: 20rem;
+    align-items: center;
+    text-align: center;
+
+    .contact_google {
+      iframe {
+        outline: none;
+        border: none;
+        background-color: darkgray;
+        padding: 0.5rem;
+        border-radius: 20px;
+      }
+    }
+
+    .contact_contact {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-top: 10rem;
+
+      .contact_heading {
+        font-size: 3rem;
+        text-align: center;
+        padding-bottom: 3rem;
+
+        h1 {
+          font-family: poppins-black;
+          letter-spacing: 2px;
+        }
+      }
+
+      .contact_link_link {
+        ul {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 2rem;
+
+          li {
+            list-style: none;
+            display: flex;
+            font-size: 2rem;
+            gap: 2rem;
+
+            span {
+              font-size: 2rem;
+              font-family: poppins-medium;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .contact_home {
+      background: url("../assets/bg/Dots-texture-white-banner-01.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 6rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 13rem;
+
+      .contact_head {
+        h1 {
+          font-size: 6rem;
+          font-family: salsa;
+          letter-spacing: 2px;
+          padding-bottom: 2rem;
+          text-transform: uppercase;
+        }
+      }
+
+      .contact_sub {
+        p {
+          font-size: 2.3rem;
+          letter-spacing: 2px;
+          font-family: fira-regular;
+          text-transform: capitalize;
+        }
+      }
+    }
+
+    .contact_links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10rem;
+      padding-bottom: 20rem;
+      align-items: center;
+      text-align: center;
+
+      .contact_google {
+        iframe {
+          outline: none;
+          border: none;
+          background-color: darkgray;
+          padding: 0.5rem;
+          border-radius: 20px;
+        }
+      }
+
+      .contact_contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        .contact_heading {
+          font-size: 4rem;
+          text-align: center;
+          padding-bottom: 3rem;
+
+          h1 {
+            font-family: poppins-black;
+            letter-spacing: 2px;
+          }
+        }
+
+        .contact_link_link {
+          ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+
+            li {
+              list-style: none;
+              display: flex;
+              font-size: 2rem;
+              gap: 2rem;
+
+              span {
+                font-size: 2.5rem;
+                font-family: poppins-medium;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 430px) {
+    width: 90%;
+    .contact_home {
+      background: url("../assets/bg/Dots-texture-white-banner-01.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 13rem;
+
+      .contact_head {
+        h1 {
+          font-size: 2rem;
+          font-family: salsa;
+          letter-spacing: 1px;
+          padding-bottom: 2rem;
+          text-transform: uppercase;
+        }
+      }
+
+      .contact_sub {
+        p {
+          font-size: 0.9rem;
+          letter-spacing: 2px;
+          font-family: fira-regular;
+          text-transform: capitalize;
+        }
+      }
+    }
+
+    .contact_links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding-bottom: 10rem;
+      align-items: center;
+      text-align: center;
+
+      .contact_google {
+        iframe {
+          outline: none;
+          border: none;
+          background-color: darkgray;
+          padding: 0.2rem;
+          border-radius: 10px;
+          width: 80%;
+        }
+      }
+
+      .contact_contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 10rem;
+
+        .contact_heading {
+          font-size: 1.5rem;
+          text-align: center;
+          padding-bottom: 3rem;
+
+          h1 {
+            font-family: poppins-black;
+            letter-spacing: 2px;
+          }
+        }
+
+        .contact_link_link {
+          width: 70%;
+          ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+
+            li {
+              list-style: none;
+              display: flex;
+              font-size: 2rem;
+              gap: 1rem;
+
+              span {
+                font-size: 0.9rem;
+                font-family: poppins-medium;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
