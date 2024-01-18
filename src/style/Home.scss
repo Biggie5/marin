@@ -3,22 +3,53 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  margin-top: 13rem;
+
   overflow: hidden;
 
   .hero {
     display: flex;
+    background: url("../assets/cargoo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-top: 30rem;
+    padding-bottom: 30rem;
+
     justify-content: center;
     align-items: center;
     text-align: center;
 
     .lettering {
+      // position: absolute;
       margin-left: 10rem;
       width: 70%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       gap: 27px;
+
+      .lagos {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin-left: 15rem;
+        width: 100%;
+        img {
+          width: 15%;
+          text-align: center;
+          object-fit: contain;
+        }
+
+        p {
+          color: #e42933;
+          text-align: center;
+          font-size: 2.5rem;
+          font-family: salsa;
+          font-weight: 800;
+          letter-spacing: 1px;
+        }
+      }
 
       .first_column {
         font-size: 2.5rem;
@@ -27,6 +58,7 @@
           font-family: salsa;
           letter-spacing: 2px;
           font-weight: 600;
+          color: rgb(255, 247, 247);
         }
       }
 
@@ -35,6 +67,7 @@
         line-height: 2.5rem;
         letter-spacing: 2.5px;
         font-family: poppins-medium;
+        color: rgb(255, 247, 247);
       }
 
       .third_column {

@@ -16,6 +16,7 @@ import mission from "../assets/mission.png";
 import vision from "../assets/vision.png";
 import cargo from "../assets/cargo.png";
 import oil from "../assets/oil rig.png";
+import cargoo from "../assets/cargoo.jpg";
 import logo1 from "../assets/fhn.png";
 import logo2 from "../assets/neconde.png";
 import logo3 from "../assets/npdc.png";

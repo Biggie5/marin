@@ -19,6 +19,7 @@ import {
   logo6,
   logo7,
   logo8,
+  real,
 } from "../constant/images";
 
 const Home = () => {
@@ -26,6 +27,10 @@ const Home = () => {
     <div className="Home_main">
       <section className="hero">
         <div className="lettering">
+          <div className="lagos">
+            <img src={real} alt="real" />
+            <p>Marin Oil & Gas</p>
+          </div>
           <div className="first_column">
             <h2> consultancy & surveying services</h2>
           </div>
@@ -39,9 +44,9 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="imaging">
+        {/* <div className="imaging">
           <img src={ship2} alt="typewriter" />
-        </div>
+        </div> */}
       </section>
 
       <section className="columns_box">
