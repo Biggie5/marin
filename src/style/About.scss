@@ -1,5 +1,6 @@
 .About_main {
   margin-top: 7rem;
+  overflow-x: hidden;
   overflow: hidden;
 
   .about_home {
@@ -248,7 +249,7 @@
 
     .md_word {
       background-color: white;
-      width: 50%;
+      width: 80%;
       border-radius: 7px;
       p {
         font-size: 1.7rem;

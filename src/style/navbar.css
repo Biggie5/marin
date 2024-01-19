@@ -27,7 +27,7 @@ header {
 .logo_name {
   color: red;
   font-size: 1.7rem;
-  font-family: poppins-black;
+  font-family: salsa;
   letter-spacing: 1px;
 }
 
@@ -120,18 +120,21 @@ nav {
     padding: 0 2rem;
     background-color: transparent;
     position: fixed;
-    width: 100%;
+    width: 99%;
     backdrop-filter: blur(8px);
-    top: 2rem;
+    top: 0.1rem;
     color: var(--textColor);
   }
 
   header .responsive_nav {
-    transform: translateY(98vh);
-    width: 100%;
+    transform: translateY(96.5vh);
+    width: 103%;
   }
   .logo_name {
-    display: none;
+    color: red;
+    font-size: 1.4rem;
+    font-family: salsa;
+    letter-spacing: 1px;
   }
 
   nav a {

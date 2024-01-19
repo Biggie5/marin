@@ -1,5 +1,6 @@
 .service_main {
   margin-top: 13rem;
+  overflow-x: hidden;
   overflow: hidden;
 
   .service_home {
@@ -75,7 +76,7 @@
         letter-spacing: 2px;
 
         span {
-          color: lightblue;
+          color: #ed1b24;
           font-size: 3rem;
           font-family: poppins-black;
           text-decoration: underline;

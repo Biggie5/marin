@@ -1,10 +1,10 @@
 .Home_main {
+  overflow-x: hidden;
+  overflow: hidden;
   background: url(../assets/bg/Dots-texture-white-banner-01.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-
-  overflow: hidden;
 
   .hero {
     display: flex;
@@ -12,31 +12,32 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-    padding-top: 30rem;
-    padding-bottom: 30rem;
-
+    width: 100%;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
     justify-content: center;
     align-items: center;
     text-align: center;
 
     .lettering {
-      // position: absolute;
-      margin-left: 10rem;
-      width: 70%;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      gap: 27px;
+      width: 100%;
+      align-items: center;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 40px;
 
       .lagos {
         display: flex;
         justify-items: center;
         align-items: center;
         margin-left: 15rem;
-        width: 100%;
+        width: 50%;
         img {
-          width: 15%;
+          width: 9%;
           text-align: center;
           object-fit: contain;
         }
@@ -531,20 +532,22 @@
   }
 
   @media (max-width: 430px) {
-    overflow-x: hidden;
+    width: 100%;
+
     .hero {
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
+      justify-content: center;
 
       .lettering {
-        margin-left: 10rem;
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-right: 6rem;
+        align-items: center;
+
         gap: 20px;
 
         .lagos {
@@ -552,7 +555,7 @@
           justify-items: center;
           align-items: center;
           margin-left: 10rem;
-          width: 100%;
+          width: 80%;
           img {
             width: 10%;
             text-align: center;
@@ -570,9 +573,9 @@
         }
 
         .first_column {
-          font-size: 1rem;
           text-transform: capitalize;
           h2 {
+            font-size: 1.9rem;
             font-family: salsa;
             letter-spacing: 1px;
             font-weight: 600;
@@ -580,12 +583,13 @@
         }
 
         .second_column {
-          font-size: 0.8rem;
-          line-height: 1rem;
-          letter-spacing: 1px;
-          font-family: poppins-medium;
-          width: 87%;
-          margin-left: 2rem;
+          p {
+            font-size: 1.5rem;
+            line-height: 2rem;
+            letter-spacing: 1px;
+            font-family: poppins-medium;
+            margin-left: 2rem;
+          }
         }
 
         .third_column {
@@ -772,7 +776,7 @@
             letter-spacing: 1px;
 
             span {
-              color: lightblue;
+              color: #ed1b24;
               font-size: 1.2rem;
               font-family: fira-black;
             }
@@ -791,13 +795,16 @@
         }
 
         .appointment {
-          padding: 0.5rem;
-          font-size: 0.8rem;
-          border-radius: 6px;
-          background-color: lightblue;
-          font-family: ubuntu-medium;
-          text-align: center;
           width: 150px;
+          a {
+            font-size: 1.5rem;
+            border-radius: 6px;
+            background-color: lightblue;
+            font-family: ubuntu-medium;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+          }
         }
       }
 
@@ -824,7 +831,7 @@
           font-family: salsa;
           font-size: 1.7rem;
           span {
-            color: lightblue;
+            color: #ed1b24;
             font-family: salsa;
           }
         }
@@ -998,7 +1005,7 @@
             span {
               font-size: 2rem;
               font-family: fira-black;
-              color: lightblue;
+              color: #ed1b24;
             }
           }
         }

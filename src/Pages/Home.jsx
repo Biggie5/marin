@@ -35,8 +35,10 @@ const Home = () => {
             <h2> consultancy & surveying services</h2>
           </div>
           <div className="second_column">
-            Providing marine and engineering consultancy and surveying services
-            to the shipping and offshore industries
+            <p>
+              Providing marine and engineering consultancy and surveying
+              services to the shipping and offshore industries
+            </p>
           </div>
           <div className="third_column">
             <Link className="appointment" to="contact">
@@ -119,7 +121,9 @@ const Home = () => {
               message that's clear as day
             </h3>
           </div>
-          <div className="appointment">Book an appointment</div>
+          <div className="appointment">
+            <Link to="contact">Book an appointment</Link>
+          </div>
         </div>
         <div className="word_imaging">
           <img src={ship3} alt="simple message" />

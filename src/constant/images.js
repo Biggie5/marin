@@ -47,6 +47,7 @@ import item15 from "../assets/item15.jpg";
 import item16 from "../assets/item16.jpg";
 
 export {
+  cargoo,
   item1,
   item10,
   item11,
