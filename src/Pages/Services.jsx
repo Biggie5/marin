@@ -306,9 +306,7 @@ const Services = () => {
         </div>
 
         <div className="services-pictures">
-          <div className="service_main">
-            <h2>MOBILE OFFSHORE DRILLING RIG</h2>
-          </div>
+          <div className="service_main"></div>
           <div className="service_image">
             <ul>
               <li>

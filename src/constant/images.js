@@ -16,7 +16,7 @@ import mission from "../assets/mission.png";
 import vision from "../assets/vision.png";
 import cargo from "../assets/cargo.png";
 import oil from "../assets/oil rig.png";
-import cargoo from "../assets/cargoo.jpg";
+
 import logo1 from "../assets/fhn.png";
 import logo2 from "../assets/neconde.png";
 import logo3 from "../assets/npdc.png";
@@ -47,7 +47,6 @@ import item15 from "../assets/item15.jpg";
 import item16 from "../assets/item16.jpg";
 
 export {
-  cargoo,
   item1,
   item10,
   item11,

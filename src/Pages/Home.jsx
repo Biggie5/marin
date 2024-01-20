@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Email from "../component/Email";
 import "../style/Home.scss";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -69,9 +70,9 @@ const Home = () => {
       </section>
 
       <section className="offer">
-        <div className="imaging">
+        {/* <div className="imaging">
           <img src={ship4} alt="paper" />
-        </div>
+        </div> */}
         <div className="offer_lettering">
           <div className="content_one">
             <h3>
@@ -261,6 +262,9 @@ const Home = () => {
             </p>
           </div>
         </div>
+      </section>
+      <section className="contact">
+        <Email />
       </section>
     </div>
   );

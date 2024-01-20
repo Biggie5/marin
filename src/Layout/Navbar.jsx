@@ -14,15 +14,21 @@ function Navbar() {
   return (
     <header>
       <div className="header_logo">
-        <img src={real} width={50} alt="logo" />
+        <img className="images_logo" src={real} width={50} alt="logo" />
         <h2 className="logo_name">Marin Oil & Gas</h2>
       </div>
 
       <nav ref={navRef}>
-        <Link to="/">Home</Link>
-        <Link to="about">About</Link>
-        <Link to="services">Service</Link>
-        <Link to="contact" className="boom">
+        <Link to="/" onClick={showNavbar}>
+          Home
+        </Link>
+        <Link to="about" onClick={showNavbar}>
+          About
+        </Link>
+        <Link to="services" onClick={showNavbar}>
+          Service
+        </Link>
+        <Link to="contact" onClick={showNavbar} className="boom">
           Book an Appointment
         </Link>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
